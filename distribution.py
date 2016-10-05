@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Bauti G
+Credit: Vinzent
 
 Assignment:
 
@@ -36,3 +36,35 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+text=str.lower(input("Please enter a string of text (the bigger the better): "))
+text2=text.replace(" ", "")
+
+text.count('a')
+text.count('b')
+text.count('c')
+text.count('d')
+text.count('e')
+text.count('f')
+text.count('g')
+text.count('h')
+text.count('i')
+text.count('j')
+text.count('k')
+text.count('l')
+text.count('m')
+text.count('n')
+text.count('o')
+text.count('p')
+text.count('q')
+text.count('r')
+text.count('s')
+text.count('t')
+text.count('u')
+text.count('v')
+text.count('w')
+text.count('x')
+text.count('y')
+text.count('z')
+
+number=list(range(1, 27))
+print(number)
