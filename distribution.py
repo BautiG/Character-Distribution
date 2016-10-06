@@ -36,8 +36,10 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+import string
 text=str.lower(input("Please enter a string of text (the bigger the better): "))
 text2=text.replace(" ", "")
+lis3=list(string.ascii_lowercase)
 
 lis1 = []
 lis1.append(text.count('a'))
@@ -70,7 +72,15 @@ lis1.append(text.count('z'))
 lis2=list(range(0,26))
 print(lis1)
 
-zipped=zip(lis1,lis2)
+zipped=zip(lis1,lis2,lis3)
 zipped=list(zipped)
+zipped.sort(reverse=True)
+number=0
+
+while number<26:
+    if zipped[number][0] != 0:
+        print(str())
+        
+
 
 print(zipped)
