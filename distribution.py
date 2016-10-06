@@ -80,7 +80,5 @@ number=0
 while number<26:
     if zipped[number][0] != 0:
         print(str())
-        
-
 
 print(zipped)
