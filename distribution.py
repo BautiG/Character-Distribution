@@ -79,9 +79,10 @@ number2=0
 
 while number<26:
     if zipped[number][0] != 0:
-        while number2<lis1[number]:
+        while number2<zipped[number][0]:
             print(str(zipped[number][2]))
-            number=number+1
             number2=number2+1
+        number=number+1
+        number2=0
     else:
         number=number+1
