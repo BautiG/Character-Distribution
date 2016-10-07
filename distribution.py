@@ -75,10 +75,13 @@ zipped=zip(lis1,lis2,lis3)
 zipped=list(zipped)
 zipped.sort(reverse=True)
 number=0
+number2=0
 
 while number<26:
     if zipped[number][0] != 0:
-        print(str(zipped[number][2]))
-        number=number+1
+        while number2<lis1[number]:
+            print(str(zipped[number][2]))
+            number=number+1
+            number2=number2+1
     else:
         number=number+1
