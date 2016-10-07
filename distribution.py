@@ -80,5 +80,5 @@ while number<26:
     if zipped[number][0] != 0:
         print(str(zipped[number][2]))
         number=number+1
-
-print(zipped)
+    else:
+        number=number+1
