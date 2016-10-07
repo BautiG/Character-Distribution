@@ -70,7 +70,6 @@ lis1.append(text.count('y'))
 lis1.append(text.count('z'))
 
 lis2=list(range(0,26))
-print(lis1)
 
 zipped=zip(lis1,lis2,lis3)
 zipped=list(zipped)
@@ -79,6 +78,7 @@ number=0
 
 while number<26:
     if zipped[number][0] != 0:
-        print(str())
+        print(str(zipped[number][2]))
+        number=number+1
 
 print(zipped)
