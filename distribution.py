@@ -83,8 +83,7 @@ zipped.sort(reverse=True)
 while number<26:
     if zipped[number][0] != 0:
         while number2<zipped[number][0]:
-            for char in str(zipped[number][2]):
-                print(char*(number2+1), end="")
+            print(zipped[number][2], end="")
             number2=number2+1
         number=number+1
         number2=0
