@@ -70,12 +70,15 @@ lis1.append(text.count('y'))
 lis1.append(text.count('z'))
 
 lis2=list(range(0,26))
+lis2.sort(reverse=True)
 
 zipped=zip(lis1,lis2,lis3)
 zipped=list(zipped)
 zipped.sort(reverse=True)
 number=0
 number2=0
+
+zipped.sort(reverse=True)
 
 while number<26:
     if zipped[number][0] != 0:
@@ -88,4 +91,3 @@ while number<26:
         print()
     else:
         number=number+1
-
