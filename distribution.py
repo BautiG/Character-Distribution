@@ -37,8 +37,9 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-text=str.lower(input("Please enter a string of text (the bigger the better): "))
-print('The distribution of characters in "'+text+'" is:')
+text5=input("Please enter a string of text (the bigger the better): ")
+print('The distribution of characters in "'+text5+'" is:')
+text=str.lower(text5)
 
 text2=text.replace(" ", "")
 lis3=list(string.ascii_lowercase)
