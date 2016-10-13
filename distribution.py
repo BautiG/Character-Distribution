@@ -38,7 +38,7 @@ Notice about this example:
 """
 import string
 text=str.lower(input("Please enter a string of text (the bigger the better): "))
-print('The distribution of characters in "'+text+'" is: ')
+print('The distribution of characters in "'+text+'" is:')
 
 text2=text.replace(" ", "")
 lis3=list(string.ascii_lowercase)
